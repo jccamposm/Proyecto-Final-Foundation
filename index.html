@@ -7,10 +7,10 @@
     <title>Blog de Gastronomía</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
-    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Nunito+Sans|Righteous" rel="stylesheet">
   </head>
   <body>
-    <div class="grid-x grid-padding-x clearfix">
+    <div id="TituloBlog" class="grid-x grid-padding-x clearfix">
       <div class="cell large-12 medium-4 medium-cell-block-y">
         <h1>Blog de Gastronomía</h1>
       </div>
@@ -91,20 +91,103 @@
               </div>
             </div>
           </div>
-          <div class="cell medium-8 medium-cell-block-y">
+          <div id="ContenidoBlog" class="cell medium-8 medium-cell-block-y">
             <h2>El Ajiaco</h2>
             <h4>Fecha: 20/04/2018</h4>
             <img src="img/ajiaco.png" alt="Ajiaco" width="700px" class="float-center">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacus odio, accumsan id ullamcorper eget, varius nec erat. Nulla facilisi. Donec dui felis, euismod nec finibus vitae, dapibus quis arcu. Maecenas tempor et ipsum quis venenatis. Ut posuere sed augue sit amet efficitur. Sed imperdiet, justo id tempus rhoncus, est est viverra turpis, non vulputate magna lectus et nisl. Pellentesque ultrices porttitor vehicula. Ut aliquet efficitur ligula, a consectetur felis. Proin tristique ut augue nec luctus. Curabitur a sapien pretium, auctor elit a, efficitur erat. Donec tincidunt dui vel velit bibendum euismod. Cras vitae nibh dui. Aliquam erat volutpat. Etiam sit amet arcu a erat efficitur facilisis. Ut viverra dapibus turpis, et ornare justo. Integer in dui cursus, dignissim tortor a, hendrerit risus.</p>
             <p>Suspendisse pulvinar, massa iaculis feugiat lobortis, dolor sapien vestibulum nulla, vel cursus tellus leo in lorem. Aliquam eu placerat urna. Suspendisse sed viverra orci, ut mattis neque. Fusce non ultrices nisi. In sagittis varius mollis. Quisque dolor quam, consectetur eu lacinia ac, ullamcorper vel arcu. Nullam mattis imperdiet nulla sed ornare. Praesent tristique, est id eleifend vestibulum, neque nibh condimentum ex, nec lobortis purus justo a libero. Phasellus id ex ac nunc hendrerit hendrerit. Nullam urna ipsum, rutrum at fringilla vel, venenatis non purus. Maecenas egestas ex vitae venenatis molestie. Ut et odio egestas, accumsan neque et, viverra nisl. Sed faucibus nec nulla sed imperdiet. Fusce quis sem ac urna semper tempor a id elit. Nulla fringilla vitae sapien a vehicula.</p>
+            <hr>
+            <p>Escribe un Comentario:</p>
+            <div class="row column">
+              <textarea name="txtComentario" rows="5" cols="80"></textarea>
+            </div>
+            <div class="row column">
+              <button type="button" name="button" class="primary button">Agregar</button>
+            </div>
+            <hr>
+            <div class="grid-x">
+              <div class="cell shrink">
+                <div class="card" style="width:100px;">
+                  <img src="img/UsuarioHombre.jpg" alt="Usuario">
+                  <div class="card-section">
+                    <p>User1</p>
+                  </div>
+                </div>
+              </div>
+              <div class="cell auto">
+                <div class="callout secondary">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+              </div>
+            </div>
+            <div class="grid-x">
+              <div class="cell shrink">
+                <div class="card" style="width:100px;">
+                  <img src="img/UsuarioMujer.jpg" alt="Usuario">
+                  <div class="card-section">
+                    <p>User2</p>
+                  </div>
+                </div>
+              </div>
+              <div class="cell auto">
+                <div class="callout secondary">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                </div>
+              </div>
+            </div>
+            <div class="grid-x">
+              <div class="cell shrink">
+                <div class="card" style="width:100px;">
+                  <img src="img/UsuarioHombre.jpg" alt="Usuario">
+                  <div class="card-section">
+                    <p>User3</p>
+                  </div>
+                </div>
+              </div>
+              <div class="cell auto">
+                <div class="callout secondary">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt. </p>
+                </div>
+              </div>
+            </div>
+            <hr>
+            <h2>La Hamburguesa</h2>
+            <h4>Fecha: 22/04/2018</h4>
+            <img src="img/comidarapida.jpg" alt="Hamburguesa" width="700px" class="float-center">
             <p>Nullam vestibulum lorem nec lectus egestas, nec ullamcorper diam maximus. Maecenas condimentum, nibh at blandit semper, ex erat tempus magna, id maximus neque velit accumsan nibh. Aenean dignissim lorem eu nisl laoreet vestibulum. Vivamus efficitur et augue vitae tincidunt. Etiam et magna felis. Integer mattis, nisi aliquet scelerisque blandit, ex mi sodales ante, eget accumsan quam magna et ligula. Curabitur id tristique leo. Proin rutrum mi vitae enim rhoncus, at cursus neque eleifend. Integer ultrices volutpat tellus ac porta. Fusce sollicitudin venenatis lacinia. Fusce ante lorem, gravida semper varius non, pharetra non erat. Sed dapibus arcu turpis, ac sollicitudin nibh lacinia vel. Nullam at enim porta, luctus metus sit amet, rutrum odio. Cras tempor enim vel pellentesque sollicitudin. Maecenas ullamcorper, sem non accumsan volutpat, neque tortor pulvinar orci, ut ultrices ligula lorem ut risus.</p>
             <p>Aliquam facilisis, nibh eget posuere suscipit, arcu sapien iaculis odio, in molestie dolor lectus vitae sem. Cras id nunc mollis mi rutrum dapibus. Quisque rutrum a augue at scelerisque. Praesent faucibus ac enim vitae gravida. Sed et sodales elit. Duis magna lectus, interdum sit amet metus a, sagittis varius magna. Proin nibh lectus, egestas a luctus ut, dapibus et enim. Curabitur fringilla ipsum vitae nunc imperdiet consectetur eget non neque. Suspendisse ultricies odio quis lorem vulputate, ac vulputate turpis feugiat. Maecenas posuere rhoncus orci, in ornare velit suscipit tempor. Curabitur pretium nisl id lorem placerat consequat. In quis quam eros. Nam mattis elit eu quam sagittis, in varius erat tempor.</p>
             <p>Fusce felis magna, pellentesque eget mollis a, rutrum id eros. Curabitur auctor varius arcu a consequat. Phasellus quis pulvinar enim, eu ultricies justo. Pellentesque risus libero, dapibus at erat ultricies, gravida varius erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla tempus, justo ut laoreet mollis, nunc tellus convallis urna, vel pretium dui velit eget ligula. Aliquam semper sed nulla a molestie. Maecenas at egestas massa, vitae aliquam mi. Fusce nec sem egestas, pretium lacus non, tincidunt sapien. Sed tristique odio at ultricies vulputate. Integer et convallis augue, eu aliquam enim. Mauris ut faucibus diam. Donec vulputate nunc sed congue accumsan. Etiam lobortis nisi quis lacinia pharetra.</p>
+            <hr>
+            <p>Escribe un Comentario:</p>
+            <div class="row column">
+              <textarea name="txtComentario" rows="5" cols="80"></textarea>
+            </div>
+            <div class="row column">
+              <button type="button" name="button" class="primary button">Agregar</button>
+            </div>
+            <hr>
+            <div class="grid-x">
+              <div class="cell shrink">
+                <div class="card" style="width:100px;">
+                  <img src="img/UsuarioHombre.jpg" alt="Usuario">
+                  <div class="card-section">
+                    <p>User1</p>
+                  </div>
+                </div>
+              </div>
+              <div class="cell auto">
+                <div class="callout secondary">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+      <br>
       <div class="cell shrink footer">
-        <h3>Here's my footer</h3>
+        <h3 style="color:Gray;">Desarrollado por: Juan Carlos Campos Mosquera</h3>
       </div>
     </div>
 

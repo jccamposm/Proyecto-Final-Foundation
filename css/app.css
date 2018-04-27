@@ -1,11 +1,25 @@
 body{
-  background: linear-gradient(#ffff,#67b8de);
-  /* overflow: hidden; */
+  /* background: linear-gradient(#ffff,#67b8de); */
+  background-image: url("../img/CocinaPpal.jpg");
+  background-color: #cccc;
 }
 
-/* h1, h2{
-  font-family: Lobster;
-} */
+#TituloBlog, #ContenidoBlog{
+  background-color: #cccc;
+}
+
+h1{
+  font-family: 'Lobster', cursive;
+}
+
+h2{
+  font-family: 'Nunito Sans', sans-serif;
+  font-style: italic;
+}
+
+h3{
+  font-family: 'Righteous', cursive;
+}
 
 ul li a:hover{
   background-color: #67b8de;
